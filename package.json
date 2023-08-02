@@ -1,0 +1,25 @@
+{
+  "name": "reasondeterminer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reason_determiner.js",
+  "scripts": {
+    "dev": "nodemon reason_determiner.js",
+    "prod": "node reason_determiner.js"
+  },
+  "keywords": [],
+  "author": "Aiwprton-tcdp",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.1",
+    "natural": "^6.5.0",
+    "sequelize": "^6.32.1",
+    "synaptic": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
